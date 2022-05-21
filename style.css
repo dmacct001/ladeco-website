@@ -993,7 +993,7 @@ textarea {
 }
 
 input[type=submit] {
-    width: 25%;
+    width: 30%;
     background-color: var(--color-green);
     color: var(--bg-color);
     font-family: 'Montserrat', sans-serif;
