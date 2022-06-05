@@ -169,7 +169,7 @@ body {
 }
 
 
-.main .home-section .hero-main .hero-text-container .hero-button {
+.main .home-section .hero-main .hero-text-container a.hero-button {
     border: none;
     text-decoration: none;
     background: var(--text-color);
@@ -482,7 +482,7 @@ body {
     display: grid;
     height: 320px;
     width: auto;
-    grid-template-rows: 80px 1fr 80px;
+    grid-template-rows: 30px 120px 120px 1fr;
     justify-content: center;
     overflow: hidden;
     align-items: center;
@@ -511,7 +511,7 @@ body {
     font-size: 16px;
 } */
 
-.main .product-section .product-section-container .production-section-items .product-price p {
+/* .main .product-section .product-section-container .production-section-items .product-price p {
     font-family: 'Montserrat', sans-serif;
     justify-self: center;
     align-self: center;
@@ -523,7 +523,7 @@ body {
     color: #999191;
     font-weight: 500;
     font-size: 14px;
-}
+} */
 
 /* .main .product-section .product-section-container .production-section-items .product-price .product-buttons {
     display: flex;
@@ -532,94 +532,43 @@ body {
     justify-content: center;
     align-items: center;
 } */
-.main .product-section .product-section-container .production-section-items .product-price .product-buttons {
+.main .product-section .product-section-container .production-section-items .product-price {
     display: flex;
-    flex-direction: row;
-    margin: 0px 10px;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.main .product-section .product-section-container .production-section-items .product-price .product-buttons .button-add {
+
+
+.main .product-section .product-section-container .production-section-items .product-price a {
     /* margin: 15px 10px; */
     font-family: 'Montserrat', sans-serif;
     /* border: 2px solid #999191; */
-    width: 40%;
-    border-radius: 8px;
-    /* border: 3px solid var(--color-black); */
-    text-decoration: none;
-    background: var(--color-black);
-    color: var(--bg-color);
-    padding: 10px 12px;
-    cursor: pointer;
-    font-weight: 600;
-    transition: all 200ms ease-in;
-
-}
-
-.main .product-section .product-section-container .production-section-items .product-price .product-buttons .button-seller {
-    /* margin: 15px 10px; */
-    font-family: 'Montserrat', sans-serif;
-    /* border: 2px solid #999191; */
-    width: 50%;
-    margin-left: 10px;
+    /* margin-left: 10px; */
+    margin-top: 30px;
     /* border: 3px solid var(--color-black); */
     border-radius: 8px;
     text-decoration: none;
     background: var(--bg-color);
     color: var(--text-color);
     padding: 10px 14px;
+    border: 2px solid var(--text-color);
     cursor: pointer;
     font-weight: 600;
     transition: all 200ms ease-in;
 
 }
 
-.main .product-section .product-section-container .production-section-items .product-price .button-add {
-    display: inline-block;
-    justify-self: center;
-    align-self: center;
-    text-align: center;
-    width: 50%;
-    /* margin: 15px 10px; */
-    font-family: 'Montserrat', sans-serif;
-    /* border: 2px solid #999191; */
-    border-radius: 8px;
-    text-decoration: none;
-    background: var(--color-black);
-    color: var(--bg-color);
-    padding: 10px 24px;
-    cursor: pointer;
-    font-weight: 600;
-    transition: all 200ms ease-in;
 
-}
 
-/* .main .product-section .product-section-container .production-section-items .product-price .product-buttons .button-wish {
-    display: inline-block;
-    justify-self: center;
-    align-self: center;
-    text-align: center;
-    margin: 15px 10px;
-    font-family: 'Montserrat', sans-serif;
-    border: 2px solid #999191;
-    border-radius: 2px;
-    text-decoration: none;
-    background: var(--bg-color);
-    color: var(--color-black);
-    padding: 8px 10px;
-    cursor: pointer;
-    font-weight: 600;
-
-} */
-
-.main .product-section .product-section-container .production-section-items .product-price .product-buttons .button-add:hover {
+.main .product-section .product-section-container .production-section-items .product-price a:hover {
     background: var(--color-green);
     color: var(--bg-color);
     /* border: 3px solid var(--color-black); */
 }
 
-.main .product-section .product-section-container .production-section-items .product-price .product-buttons .button-seller:hover {
+.main .product-section .product-section-container .production-section-items .product-price .button-seller:hover {
     background: var(--color-green);
     color: var(--bg-color);
     /* border: 3px solid var(--color-black); */
